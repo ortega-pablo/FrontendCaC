@@ -1,0 +1,129 @@
+.navbar-collapse{
+    justify-content:end;
+}
+.navbar-nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: center;
+}
+
+a.nav-link{
+    color: gray;
+}
+
+a.nav-link:hover{
+    color: whitesmoke;
+}
+
+span.navbar-brand{
+    color: whitesmoke;
+}
+
+span.navbar-brand:hover{ 
+    color: whitesmoke;
+    cursor: context-menu; 
+}
+
+#logo {
+    height: 50px;
+}
+
+#color-link {
+    color: green;
+}
+
+#color-link:hover{
+    color: rgb(28, 139, 28);
+    scale: 1.1;
+}
+
+
+.backgound-banner{
+    background-image: url("images/ba1.jpg");
+    height:650px;
+    background-position: 40% 60%;
+}
+
+.banner-mask{
+    background-color: rgba(0, 0, 0, 55%);
+    height: 650px;
+    color: aliceblue;
+    text-align: right;
+    display: flex;
+    align-items: center;
+}
+
+.banner-content{
+    padding-right: 5vw;
+}
+
+.speakers-section{
+    margin-bottom: 3vh;
+}
+
+.speakers-text{
+    text-align: center; 
+    padding-top: 2vh;
+}
+
+.speakers-container {
+    padding: 0 15vw !important
+
+}
+
+#beach-image{
+    width: 100%;
+}
+
+.more-text{
+    background-color:#343A40; 
+    color: whitesmoke;
+}
+
+.more-text-container{
+    padding-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.form-section{
+    padding: 0 20vw !important; 
+    margin-bottom: 1em;
+}
+
+.form-title{
+    text-align: center;
+    padding-top: 1em;
+}
+
+.form-name{
+    margin-bottom: 1em;
+}
+
+button.btn.send-button{
+    color: whitesmoke;
+    background-color: #96C93E;
+}
+
+.navbar.footer-section{
+    background-color: rgb(33,37,41); 
+    justify-content: center; 
+}
+
+.col-lg.footer-column{
+    text-align: center; 
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+}
+
+a.nav-link.footer{
+    color: whitesmoke
+}
+
+body::-webkit-scrollbar{
+    width: 7px;
+    background-color: rgb(33,37,41);
+    border-radius: 5px;
+}
