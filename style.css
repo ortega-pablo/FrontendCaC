@@ -127,3 +127,54 @@ body::-webkit-scrollbar{
     background-color: rgb(33,37,41);
     border-radius: 5px;
 }
+
+.discountContainer{
+    display: flex; 
+    margin-top: 50px;
+}
+
+.buyContainer{
+    min-height: calc(100vh - 520px);
+    margin-bottom: 3vh;
+}
+
+.buyText{
+    text-align: center; 
+    padding-top: 2vh;
+}
+
+.rowblock{
+    justify-content:center;
+}
+
+.columnBlock{
+    padding: 10px !important;
+}
+
+.block{
+    height: 250px; width:300px ;border: 3px solid rgb(130, 215, 56);
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.block.b2{
+    border: 3px solid rgb(56, 104, 215);
+}
+
+.block.b3{
+    border: 3px solid rgb(215, 191, 56);
+}
+
+.formContainer {
+    height: auto;
+    padding-right: 24vw !important; padding-left: 24vw !important; margin-top: 10px; 
+}
+
+.form1{
+    margin-bottom: 1em;
+}
+
+.formLabel{
+    padding: 1em 0;
+}
